@@ -1,0 +1,36 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+section{
+    height:3vh;
+    width:100vw;
+    background-image:url('images/Presentation6.jpg');
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.sec2{
+    position:absolute;
+    left:0;
+    right:0;
+    height:50vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.conten input[type=text]{
+    height:30px;
+    border:0;
+    margin-top:2.5vh;
+    margin-left:4vw;
+    border-radius:20px;
+}
+.conten output[typeof=submit] {
+    background-color: black;
+    color: white;
+    margin-top: 2.5vh;
+    margin-left: 4vw;
+}

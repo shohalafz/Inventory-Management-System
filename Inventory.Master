@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Inventory.master.cs" Inherits="IMSPM.Inventory" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title><h1>Inventory Management System</h1></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Label ID="LabUserLogin" runat="server" Text=""></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LnkAdmin" runat="server" OnClick="LnkAdmin_Click">AdminPage</asp:LinkButton>&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LnkSchedule" runat="server" OnClick="LnkSchedule_Click">Schedule</asp:LinkButton>&nbsp;&nbsp;&nbsp;
+             <asp:LinkButton ID="LnkStock" runat="server" OnClick="LnkStock_Click">InitialStock</asp:LinkButton>&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LnkStockReport" runat="server" OnClick="LnkStockReport_Click">StockReport</asp:LinkButton>&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LnkLogout" runat="server" OnClick="LnkLogout_Click">Logout</asp:LinkButton>&nbsp;&nbsp;&nbsp;
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
